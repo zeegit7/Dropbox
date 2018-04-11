@@ -1,0 +1,38 @@
+<h2 class="page-header">Dashboard</h2>
+<p>Welcome to your dashboard</p>
+ 		<center>
+ 		  <li align="right"  role="presentation"><a href="/aboutMe">About Me!</a></li>
+ 		 <div class="header clearfix">
+  			<form action="/uploads" method="post" encType="multipart/form-data">
+	  		<input type="file" name="filenames"/>
+	  		<input type="submit" class="btn btn-default" name="submit" value="Upload!"/>
+  		</form>
+        </div>
+         	<div class="header clearfix">
+       			<h3 class="text-muted">
+       				Your Files and Folders:
+       				<br>
+       			{{#if data}}
+      				<p style="border:3px; border-style:solid; border-color:#808080; padding: 0.75em;">
+         				{{data}}
+     				 </p>
+				{{/if}}
+       </div>
+       <div class="container">
+      <form align="left" method="post" action="createDirectory">
+       
+          <input type="text" class="form-control" name="directory" id="directory" placeholder="Enter name of directory to create!">
+          <button type="submit"  class="btn btn-default">Create!</button>
+        </div>
+         <div class="container">
+        
+      </form>
+      </div>
+      <div class="container">
+        <form align="left" method="post" action="share">
+       
+          <input type="email" class="form-control" name="sharemail" id="sharemail" placeholder="Enter email to share files with!">
+          <button type="submit"  class="btn btn-default">Share!</button>
+      </form>
+       </div>
+       </center>

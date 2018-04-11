@@ -1,0 +1,13 @@
+{
+    "_id" : ObjectId("5a092bc9b6587b1fa0af191e"),
+    "name" : "zeeshan",
+    "email" : "zeeshanalidba@gmail.com",
+    "password" : "$2a$10$WOHHqrgBzUReiwwSUv2JDOfb9tH.yy/0zl7WQy2/xV.GyUIkQo5QK",
+    "__v" : 0
+}
+
+{
+    "_id" : "J3Dzn7v68FND7ySCw33RD3nv3SDlvk34",
+    "session" : "{\"cookie\":{\"originalMaxAge\":null,\"expires\":null,\"httpOnly\":true,\"path\":\"/\"},\"flash\":{},\"passport\":{\"user\":\"5a092bc9b6587b1fa0af191e\"}}",
+    "expires" : ISODate("2017-11-27T05:21:19.301Z")
+}
